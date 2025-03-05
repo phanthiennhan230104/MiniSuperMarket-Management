@@ -24,12 +24,12 @@ namespace CS464_BrosHood
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new frm_Danhmuc());
+            Application.Run(new frm_Danhmuc());
             //Application.Run(new frm_Dangnhap());
             //Application.Run(new frm_Dangky());
             //Application.Run(new frm_phanQuyen());
             //Application.Run(new frm_PhieuNhap());
-            //Application.Run(new frm_Baocaobanghang());
+            //Application.Run(new frm_Baocaobanhang());
             //Application.Run(new frm_HoaDon());
             //Application.Run(new frm_ThongTinPhieuNhap());
             //Application.Run(new frm_TimKiemKhachHang());
@@ -38,7 +38,7 @@ namespace CS464_BrosHood
             //Application.Run(new frm_Quanlykhachhang());
             //Application.Run(new frm_Quanlynhacungcap());
             //Application.Run(new frm_Quanlykhachhang());
-            Application.Run(new frm_Baocaotonkho());
+            //Application.Run(new frm_Baocaotonkho());
 
 
         }

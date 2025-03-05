@@ -46,23 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_Baocaotonkho.cs">
+    <Compile Include="frm_Baocaobanhang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Baocaotonkho.Designer.cs">
-      <DependentUpon>frm_Baocaotonkho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_Baocaobanghang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_Baocaobanghang.Designer.cs">
-      <DependentUpon>frm_Baocaobanghang.cs</DependentUpon>
+    <Compile Include="frm_Baocaobanhang.Designer.cs">
+      <DependentUpon>frm_Baocaobanhang.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Baocaoloinhuan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Baocaoloinhuan.Designer.cs">
       <DependentUpon>Frm_Baocaoloinhuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Baocaotonkho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Baocaotonkho.Designer.cs">
+      <DependentUpon>frm_Baocaotonkho.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Dangky.cs">
       <SubType>Form</SubType>
@@ -138,14 +138,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_Baocaotonkho.resx">
-      <DependentUpon>frm_Baocaotonkho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_Baocaobanghang.resx">
-      <DependentUpon>frm_Baocaobanghang.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Baocaobanhang.resx">
+      <DependentUpon>frm_Baocaobanhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Baocaoloinhuan.resx">
       <DependentUpon>Frm_Baocaoloinhuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Baocaotonkho.resx">
+      <DependentUpon>frm_Baocaotonkho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Dangky.resx">
       <DependentUpon>frm_Dangky.cs</DependentUpon>

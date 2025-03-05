@@ -18,7 +18,7 @@ E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\ThongTinPhieuNhap
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\TimKiemKhachHang.frm_TimKiemKhachHang.resources
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\WindowsForms.frm_Quanlyhanghoa.resources
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\WindowsForms.frm_Quanlykhachhang.resources
-E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\MSM_Project.frm_Baocaobanghang.resources
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\MSM_Project.Frm_Baocaoloinhuan.resources
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\WindowsForms.frm_Quanlynhacungcap.resources
 E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\BaoCaoSoLuongHangTonKho.frm_Baocaotonkho.resources
+E:\CMUCS464JIS\CMU_CS447_BrosHood\CMU_CS447_BrosHood\obj\Debug\MSM_Project.frm_Baocaobanhang.resources

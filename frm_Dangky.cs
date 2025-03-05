@@ -16,5 +16,10 @@ namespace CS464_BrosHood
         {
             InitializeComponent();
         }
+
+        private void btn_dangKy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

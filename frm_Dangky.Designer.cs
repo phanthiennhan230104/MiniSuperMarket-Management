@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Dangky));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_dangKy = new System.Windows.Forms.Button();
             this.btn_thoat = new System.Windows.Forms.Button();
             this.cb_hienMK = new System.Windows.Forms.CheckBox();
             this.txt_nhapLai = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btn_dangKy);
             this.panel1.Controls.Add(this.btn_thoat);
             this.panel1.Controls.Add(this.cb_hienMK);
             this.panel1.Controls.Add(this.txt_nhapLai);
@@ -62,17 +62,18 @@
             this.panel1.Size = new System.Drawing.Size(660, 292);
             this.panel1.TabIndex = 9;
             // 
-            // button2
+            // btn_dangKy
             // 
-            this.button2.BackColor = System.Drawing.Color.LightGreen;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(210, 194);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 39);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Xác nhận";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_dangKy.BackColor = System.Drawing.Color.LightGreen;
+            this.btn_dangKy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_dangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_dangKy.Location = new System.Drawing.Point(210, 194);
+            this.btn_dangKy.Name = "btn_dangKy";
+            this.btn_dangKy.Size = new System.Drawing.Size(108, 39);
+            this.btn_dangKy.TabIndex = 4;
+            this.btn_dangKy.Text = "Xác nhận";
+            this.btn_dangKy.UseVisualStyleBackColor = false;
+            this.btn_dangKy.Click += new System.EventHandler(this.btn_dangKy_Click);
             // 
             // btn_thoat
             // 
@@ -195,7 +196,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_dangKy;
         private System.Windows.Forms.Button btn_thoat;
         private System.Windows.Forms.CheckBox cb_hienMK;
         private System.Windows.Forms.TextBox txt_matKhau;
